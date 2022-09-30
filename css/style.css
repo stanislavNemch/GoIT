@@ -1,0 +1,11 @@
+.colortext {
+    color: #FB6D3A; /* Цвет выделения */
+}
+
+li {
+    color: #FB6D3A; /* Цвет маркеров */
+}
+
+li span {
+    color: black; /* Цвет текста */
+}
