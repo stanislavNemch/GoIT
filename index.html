@@ -6,18 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normal.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
 <!--Main-->
-<div>
+<div class="main">
     <!--Main content-->
-    <div>
+    <div class="main-content">
         <!--About user-->
-        <div>
-            <h2>Front-End Developer</h2>
+        <div class="about">
+            <h4>Front-End Developer</h4>
             <h1>Nemchenko Stanislav</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -27,29 +30,35 @@
             </p>
         </div>
         <!--Projects-->
-        <div>
+        <div class="projects">
             <h3>Projects</h3>
 
             <ol>
                 <li>
-                    <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                    .............
-                    [ HTML5, CSS3 ]
+                    <span>
+                        <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
+                        .............
+                        [ HTML5, CSS3 ]
+                    </span>
                 </li>
                 <li>
-                    <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                    ..............
-                    [ JavaScript ]
+                    <span>
+                        <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                        ...............
+                        [ JavaScript ]
+                    </span>
                 </li>
                 <li>
-                    <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                    ..................
-                    [ React.js, Node.js ]
+                    <span>
+                        <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
+                        .....................
+                        [ React.js, Node.js ]
+                    </span>
                 </li>
             </ol>
         </div>
         <!--Work-->
-        <div>
+        <div class="work">
             <h3>Work Experience</h3>
             <!--Company 1-->
             <div>
@@ -86,7 +95,7 @@
             </div>
         </div>
         <!--Education-->
-        <div>
+        <div class="education">
             <h3>Education</h3>
             <h4><span class="colortext">National University of Radioelectronics</span></h4>
             <h4>Management</h4>
@@ -94,8 +103,8 @@
         </div>
     </div>
     <!--Sidebar-->
-    <aside>
-        <img width="300px" src="img/photo.jpg" alt="My Photo">
+    <aside class="sidebar">
+        <img width="370px" src="img/photo.jpg" alt="My Photo">
         <!--Contacts-->
         <div>
             <h3>Contacts</h3>
@@ -123,7 +132,7 @@
         </div>
         <!--Soft Skills-->
         <div>
-            <h3>Tech Skills</h3>
+            <h3>Soft Skills</h3>
             <ul>
                 <li><span>Scrum</span></li>
                 <li><span>Agile</span></li>
