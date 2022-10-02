@@ -114,6 +114,11 @@ body{
     color: #FFFFFF;
 }
 
+.sidebar ul{
+    padding: 0;
+    margin-left: 20px;
+}
+
 .sidebar li{
     color: #FB6D3A;
     margin: 10px 0;
